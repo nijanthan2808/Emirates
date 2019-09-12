@@ -1,5 +1,8 @@
 package com.pom.pages;
 
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.pom.wrappers.ProjectWrappers;
@@ -20,9 +23,36 @@ public class ResultPage extends ProjectWrappers {
 
 
 
-	public ResultPage getUserName() throws InterruptedException {
-		getTextByXpath(prop.getProperty("Home.UserName.Xpath"));
-		return new ResultPage(driver, test);
+	public ResultPage verifyOutBoundDetails() throws InterruptedException {
+		getTextByXpath(prop.getProperty("Result.OutBound.Xpath"));
+		return this;
+	}
+
+	public ResultPage verifyInBoundDetails() throws InterruptedException {
+		getTextByXpath(prop.getProperty("Result.InBound.Xpath"));
+		return this;
+	}
+	
+	public ResultPage verifyOutBoundDate() throws InterruptedException {
+		getTextByXpath(prop.getProperty("Result.InBound.Xpath"));
+		return this;
+	}
+	
+	public ResultPage verifyInBoundDate() throws InterruptedException {
+		getTextByXpath(prop.getProperty("Result.InBound.Xpath"));
+		return this;
+	}
+	
+	public ResultPage verifyOutBoundList() throws InterruptedException {
+		List<WebElement>  ObList= driver.findElementsByXPath(prop.getProperty("Result.ObList.Xapth")) ;
+		System.out.println("Total Out bound flights available : " + ObList ) ;
+		return this;
+	}
+
+	public ResultPage verifyInBoundList() throws InterruptedException {
+		List<WebElement>  IbList= driver.findElementsByXPath(prop.getProperty("Result.IbList.Xapth")) ;
+		System.out.println("Total In bound flights available : " + IbList ) ;
+		return this;
 	}
 
 }

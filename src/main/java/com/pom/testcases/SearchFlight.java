@@ -28,28 +28,33 @@ public class SearchFlight extends ProjectWrappers {
 
 	@Test(dataProvider = "fetchData")
 
-	public void searchOneWay(String userId, String password) throws InterruptedException {
+	public void searchOneWay(String departureLocation, String arrivalLocation, String departureDate)
+			throws InterruptedException {
 
 		ATUReports.setAuthorInfo(prop.getProperty("Authors"), Utils.getCurrentTime(), "1.0");
 		ATUReports.setWebDriver(driver);
-		ATUReports.setTestCaseReqCoverage("Test case for BCT Login pass");
+		ATUReports.setTestCaseReqCoverage("Test case for search flights oneway");
 
-		new HomePage(driver, test);
+		new HomePage(driver, test).enterDeparture(departureLocation).selectDeparture().enterArrival(arrivalLocation)
+				.selectArrival().selectOneway().selectDepartureDate(departureDate).clickSearch().verifyOutBoundDetails()
+				.verifyOutBoundDate().verifyOutBoundList();
 
 	}
 
 	@Test(dataProvider = "fetchData")
-	
-	public void searchReturn(String userId, String password) throws InterruptedException {
+
+	public void searchWithReturn(String departureLocation, String arrivalLocation, String departureDate, String arrivalDate)
+			throws InterruptedException {
 
 		ATUReports.setAuthorInfo(prop.getProperty("Authors"), Utils.getCurrentTime(), "1.0");
 		ATUReports.setWebDriver(driver);
-		ATUReports.setTestCaseReqCoverage("Test case for BCT Login fail");
+		ATUReports.setTestCaseReqCoverage("Test case for search flights with return");
 
-		new HomePage(driver, test);
+		new HomePage(driver, test).enterDeparture(departureLocation).selectDeparture().enterArrival(arrivalLocation)
+				.selectArrival().selectDepartureDate(departureDate).selectArrivalDate(arrivalDate).clickSearch().verifyOutBoundDetails()
+				.verifyOutBoundDate().verifyOutBoundList().verifyInBoundDetails().verifyInBoundDate().verifyInBoundList();
 
 	}
-
 
 
 }
