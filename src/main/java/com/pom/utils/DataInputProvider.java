@@ -30,9 +30,9 @@ public class DataInputProvider {
 						try {
 							String cellValue = "";
 							try {
-								 if(row.getCell(j).getCellType() == CellType.STRING) {
+								 if(row.getCell(j).getCellType() ==1) {
 								cellValue = row.getCell(j).getStringCellValue();
-								 }else if(row.getCell(j).getCellType()==CellType.NUMERIC) {
+								 }else if(row.getCell(j).getCellType()==0) {
 								 cellValue =""+ (int) row.getCell(j).getNumericCellValue();
 								 }
 							} catch (Exception e) {

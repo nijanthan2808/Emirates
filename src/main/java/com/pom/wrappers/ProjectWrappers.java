@@ -2,6 +2,8 @@ package com.pom.wrappers;
 
 import java.io.IOException;
 import java.util.HashMap;
+
+import org.jfree.xml.ParseException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -24,7 +26,7 @@ public class ProjectWrappers extends GenericWrappers {
 	public HashMap<String, String> map = new HashMap<String, String>();
 
 	@BeforeSuite
-	public void beforSuite() {
+	public void beforSuite() throws ParseException {
 		startResult();
 	}
 

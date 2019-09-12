@@ -20,7 +20,7 @@ public class HomePage extends ProjectWrappers {
 
 	public HomePage enterDeparture(String departureLocation)
 			throws InterruptedException {
-		enter("xpath", prop.getProperty("Home.Departure.Xpath"), prop.getProperty("Departure"));
+		enter("xpath", prop.getProperty("Home.Departure.Xpath"), departureLocation);
 		return this;
 	}
 
@@ -32,12 +32,13 @@ public class HomePage extends ProjectWrappers {
 	
 	public HomePage enterArrival( String arrivalLocation)
 			throws InterruptedException {
-		enter("xpath", prop.getProperty("Home.Arrival.Xpath"), prop.getProperty("Arrival"));
+		enter("xpath", prop.getProperty("Home.Arrival.Xpath"), arrivalLocation);
 		return this;
 	}
 
 	public HomePage selectArrival()
 			throws InterruptedException {
+		Thread.sleep(5000);
 		click("xpath", prop.getProperty("Home.ArrivalSelect.Xpath"));
 		return this;
 	}
@@ -50,15 +51,13 @@ public class HomePage extends ProjectWrappers {
 	
 	public HomePage selectDepartureDate( String departureDate)
 			throws InterruptedException {
-		departureDate = prop.getProperty("DepartureDate");
 		click("xpath", prop.getProperty("Home.DepartureDate.Xpath"));
 		return this;
 	}
 	
-	public HomePage selectArrivalDate( String arrivalDate)
+	public HomePage selectReturnDate( String returnDate)
 			throws InterruptedException {
-		arrivalDate = prop.getProperty("ArrivalDate");
-		click("xpath", prop.getProperty("Home.ArrivalSelect.Xpath"));
+		click("xpath", prop.getProperty("Home.ReturnSelect.Xpath"));
 		return this ;
 	}
 	
