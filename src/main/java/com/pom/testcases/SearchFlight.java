@@ -27,24 +27,27 @@ public class SearchFlight  extends ProjectWrappers {
 		dataSheetName = "Emirates";
 	}
 
+	
+	  @Test(dataProvider = "fetchData")
+	  
+	  public void searchOneWay(String departureLocation, String arrivalLocation)
+	  throws InterruptedException{
+	  
+	  ATUReports.setAuthorInfo(prop.getProperty("Authors"), Utils.getCurrentTime(),
+	  "1.0"); ATUReports.setWebDriver(driver);
+	  ATUReports.setTestCaseReqCoverage("Test case for search flights oneway");
+	  
+	  new HomePage(driver,
+	  test).enterDeparture(departureLocation).selectDeparture().enterArrival(
+	  arrivalLocation)
+	  .selectArrival().selectOneway().selectDepartureDate().clickSearch().
+	  verifyOutBoundDetails() .verifyOutBoundDate().verifyOutBoundList();
+	  
+	  }
+	 
 	@Test(dataProvider = "fetchData")
 
-	public void searchOneWay(String departureLocation, String arrivalLocation, String departureDate, String returnDate)
-			throws InterruptedException{
-
-		ATUReports.setAuthorInfo(prop.getProperty("Authors"), Utils.getCurrentTime(), "1.0");
-		ATUReports.setWebDriver(driver);
-		ATUReports.setTestCaseReqCoverage("Test case for search flights oneway");
-
-		new HomePage(driver, test).enterDeparture(departureLocation).selectDeparture().enterArrival(arrivalLocation)
-				.selectArrival().selectOneway().selectDepartureDate(departureDate).clickSearch().verifyOutBoundDetails()
-				.verifyOutBoundDate().verifyOutBoundList();
-
-	}
-
-	@Test(dataProvider = "fetchData")
-
-	public void searchWithReturn(String departureLocation, String arrivalLocation, String departureDate, String returnDate)
+	public void searchWithReturn(String departureLocation, String arrivalLocation)
 			throws InterruptedException {
 
 		ATUReports.setAuthorInfo(prop.getProperty("Authors"), Utils.getCurrentTime(), "1.0");
@@ -52,7 +55,7 @@ public class SearchFlight  extends ProjectWrappers {
 		ATUReports.setTestCaseReqCoverage("Test case for search flights with return");
 
 		new HomePage(driver, test).enterDeparture(departureLocation).selectDeparture().enterArrival(arrivalLocation)
-				.selectArrival().selectDepartureDate(departureDate).selectReturnDate(returnDate).clickSearch().verifyOutBoundDetails()
+				.selectArrival().selectDepartureDate().selectReturnDate().clickSearch().verifyOutBoundDetails()
 				.verifyOutBoundDate().verifyOutBoundList().verifyInBoundDetails().verifyInBoundDate().verifyInBoundList();
 
 	}

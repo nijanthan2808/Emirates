@@ -1,0 +1,17 @@
+13/09/2019 07:33:19 devpinoyLogger The browser : 'chrome' has been launched successfully
+13/09/2019 07:33:27 devpinoyLogger The URL : 'https://www.emirates.com/ae/english/' has been opened
+13/09/2019 07:33:27 devpinoyLogger Implicitly wait has been set to 30 Secs
+13/09/2019 07:33:28 devpinoyLogger Title verified and its matching with the given text : Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience
+13/09/2019 07:33:31 devpinoyLogger The data : 'Chennai' has been entered by locator: 'xpath' successfully
+13/09/2019 07:33:36 devpinoyLogger The data : 'Dubai' has been entered by locator: 'xpath' successfully
+13/09/2019 07:33:40 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 07:34:11 devpinoyLogger Unable to click the element by locator: 'xpath', value :'(//a[@data-string='"+"departureDate"+'])[1]'
+13/09/2019 07:34:13 devpinoyLogger All the active browsers has been closed
+13/09/2019 07:34:16 devpinoyLogger The browser : 'chrome' has been launched successfully
+13/09/2019 07:34:24 devpinoyLogger The URL : 'https://www.emirates.com/ae/english/' has been opened
+13/09/2019 07:34:24 devpinoyLogger Implicitly wait has been set to 30 Secs
+13/09/2019 07:34:25 devpinoyLogger Title verified and its matching with the given text : Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience
+13/09/2019 07:34:28 devpinoyLogger The data : 'Chennai' has been entered by locator: 'xpath' successfully
+13/09/2019 07:34:33 devpinoyLogger The data : 'Dubai' has been entered by locator: 'xpath' successfully
+13/09/2019 07:35:07 devpinoyLogger Unable to click the element by locator: 'xpath', value :'(//a[@data-string='"+"departureDate"+'])[1]'
+13/09/2019 07:35:09 devpinoyLogger All the active browsers has been closed

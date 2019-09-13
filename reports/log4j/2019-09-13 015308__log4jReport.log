@@ -1,0 +1,20 @@
+13/09/2019 01:53:18 devpinoyLogger The browser : 'chrome' has been launched successfully
+13/09/2019 01:53:36 devpinoyLogger The URL : 'https://www.emirates.com/ae/english/' has been opened
+13/09/2019 01:53:36 devpinoyLogger Implicitly wait has been set to 30 Secs
+13/09/2019 01:53:38 devpinoyLogger Title verified and its matching with the given text : Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience
+13/09/2019 01:53:40 devpinoyLogger The data : 'null' has been entered by locator: 'xpath' successfully
+13/09/2019 01:53:54 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 01:53:54 devpinoyLogger Unable to take ScreenShot
+13/09/2019 01:53:54 devpinoyLogger Unable to enter data : 'null' in the field by locator: 'xpath', value :'(//*[@name='Arrival airport'])[1]'
+13/09/2019 01:53:54 devpinoyLogger Unable to take ScreenShot
+13/09/2019 01:53:55 devpinoyLogger All the active browsers has been closed
+13/09/2019 01:54:00 devpinoyLogger The browser : 'chrome' has been launched successfully
+13/09/2019 01:54:18 devpinoyLogger The URL : 'https://www.emirates.com/ae/english/' has been opened
+13/09/2019 01:54:18 devpinoyLogger Implicitly wait has been set to 30 Secs
+13/09/2019 01:54:20 devpinoyLogger Title verified and its matching with the given text : Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience
+13/09/2019 01:54:26 devpinoyLogger The data : 'null' has been entered by locator: 'xpath' successfully
+13/09/2019 01:54:50 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 01:54:50 devpinoyLogger Unable to take ScreenShot
+13/09/2019 01:54:50 devpinoyLogger Unable to enter data : 'null' in the field by locator: 'xpath', value :'(//*[@name='Arrival airport'])[1]'
+13/09/2019 01:54:50 devpinoyLogger Unable to take ScreenShot
+13/09/2019 01:54:51 devpinoyLogger All the active browsers has been closed

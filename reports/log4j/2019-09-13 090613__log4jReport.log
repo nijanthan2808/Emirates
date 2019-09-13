@@ -1,0 +1,15 @@
+13/09/2019 09:06:22 devpinoyLogger The browser : 'chrome' has been launched successfully
+13/09/2019 09:06:30 devpinoyLogger The URL : 'https://www.emirates.com/ae/english/' has been opened
+13/09/2019 09:06:30 devpinoyLogger Implicitly wait has been set to 30 Secs
+13/09/2019 09:06:31 devpinoyLogger Title verified and its matching with the given text : Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience
+13/09/2019 09:06:34 devpinoyLogger The data : 'Chennai' has been entered by locator: 'xpath' successfully
+13/09/2019 09:06:39 devpinoyLogger The data : 'Dubai' has been entered by locator: 'xpath' successfully
+13/09/2019 09:06:43 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 09:06:44 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 09:07:15 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 09:07:21 devpinoyLogger Title verified and its matching with the given text : Search results | Make a booking | Emirates
+13/09/2019 09:07:22 devpinoyLogger The retrieved text is : Outbound, Chennai to Dubai (3 options)
+13/09/2019 09:07:23 devpinoyLogger The retrieved text is : Saturday, 28 September 2019
+13/09/2019 09:07:24 devpinoyLogger The retrieved text is : Inbound, Dubai to Chennai (3 options)
+13/09/2019 09:08:25 devpinoyLogger Text cannot be retrieved from given xpath value
+13/09/2019 09:08:27 devpinoyLogger All the active browsers has been closed

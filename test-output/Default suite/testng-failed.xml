@@ -6,7 +6,6 @@
       <class name="com.pom.testcases.SearchFlight">
         <methods>
           <include name="setData"/>
-          <include name="searchOneWay" invocation-numbers="0"/>
           <include name="setSheetName"/>
           <include name="beforSuite"/>
           <include name="getGridConfig"/>

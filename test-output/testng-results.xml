@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[STEP1]]>
@@ -25,49 +25,73 @@
     <line>
       <![CDATA[STEP8]]>
     </line>
+    <line>
+      <![CDATA[STEP9]]>
+    </line>
+    <line>
+      <![CDATA[STEP10]]>
+    </line>
+    <line>
+      <![CDATA[STEP11]]>
+    </line>
+    <line>
+      <![CDATA[STEP12]]>
+    </line>
+    <line>
+      <![CDATA[STEP13]]>
+    </line>
+    <line>
+      <![CDATA[STEP14]]>
+    </line>
+    <line>
+      <![CDATA[STEP15]]>
+    </line>
+    <line>
+      <![CDATA[STEP16]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="130462" started-at="2019-09-13T02:35:37 IST" finished-at="2019-09-13T02:37:47 IST">
+  <suite name="Default suite" duration-ms="145741" started-at="2019-09-13T09:38:16 IST" finished-at="2019-09-13T09:40:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="130462" started-at="2019-09-13T02:35:37 IST" finished-at="2019-09-13T02:37:47 IST">
+    <test name="Default test" duration-ms="145741" started-at="2019-09-13T09:38:16 IST" finished-at="2019-09-13T09:40:42 IST">
       <class name="com.pom.testcases.SearchFlight">
-        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="beforSuite" is-config="true" duration-ms="628" started-at="2019-09-13T02:35:36 IST" finished-at="2019-09-13T02:35:37 IST">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="beforSuite" is-config="true" duration-ms="933" started-at="2019-09-13T09:38:15 IST" finished-at="2019-09-13T09:38:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforSuite -->
-        <test-method status="PASS" signature="setSheetName()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="setSheetName" is-config="true" duration-ms="2" started-at="2019-09-13T02:35:37 IST" depends-on-methods="com.pom.wrappers.ProjectWrappers.beforSuite" finished-at="2019-09-13T02:35:37 IST">
+        <test-method status="PASS" signature="setSheetName()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="setSheetName" is-config="true" duration-ms="5" started-at="2019-09-13T09:38:16 IST" depends-on-methods="com.pom.wrappers.ProjectWrappers.beforSuite" finished-at="2019-09-13T09:38:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setSheetName -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-09-13T02:35:37 IST" finished-at="2019-09-13T02:35:37 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="beforeTest" is-config="true" duration-ms="6" started-at="2019-09-13T09:38:16 IST" finished-at="2019-09-13T09:38:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getAllObjects()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="getAllObjects" is-config="true" duration-ms="775" started-at="2019-09-13T02:35:37 IST" finished-at="2019-09-13T02:35:38 IST">
+        <test-method status="PASS" signature="getAllObjects()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="getAllObjects" is-config="true" duration-ms="818" started-at="2019-09-13T09:38:16 IST" finished-at="2019-09-13T09:38:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllObjects -->
-        <test-method status="PASS" signature="getGridConfig()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="getGridConfig" is-config="true" duration-ms="80" started-at="2019-09-13T02:35:38 IST" finished-at="2019-09-13T02:35:38 IST">
+        <test-method status="PASS" signature="getGridConfig()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="getGridConfig" is-config="true" duration-ms="75" started-at="2019-09-13T09:38:17 IST" finished-at="2019-09-13T09:38:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getGridConfig -->
-        <test-method status="PASS" signature="getMobileConfig()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="getMobileConfig" is-config="true" duration-ms="66" started-at="2019-09-13T02:35:38 IST" finished-at="2019-09-13T02:35:38 IST">
+        <test-method status="PASS" signature="getMobileConfig()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="getMobileConfig" is-config="true" duration-ms="75" started-at="2019-09-13T09:38:17 IST" finished-at="2019-09-13T09:38:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMobileConfig -->
-        <test-method status="PASS" signature="setTestData()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="setTestData" is-config="true" duration-ms="64" started-at="2019-09-13T02:35:38 IST" finished-at="2019-09-13T02:35:38 IST">
+        <test-method status="PASS" signature="setTestData()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="setTestData" is-config="true" duration-ms="80" started-at="2019-09-13T09:38:17 IST" finished-at="2019-09-13T09:38:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestData -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="setData" is-config="true" duration-ms="2" started-at="2019-09-13T02:35:38 IST" finished-at="2019-09-13T02:35:38 IST">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="setData" is-config="true" duration-ms="2" started-at="2019-09-13T09:38:17 IST" finished-at="2019-09-13T09:38:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="beforeMethod" is-config="true" duration-ms="16117" started-at="2019-09-13T02:35:38 IST" finished-at="2019-09-13T02:35:54 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="beforeMethod" is-config="true" duration-ms="15944" started-at="2019-09-13T09:38:17 IST" finished-at="2019-09-13T09:38:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="searchOneWay(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="searchOneWay" duration-ms="45143" started-at="2019-09-13T02:35:54 IST" data-provider="fetchData" finished-at="2019-09-13T02:36:39 IST">
+        <test-method status="PASS" signature="searchOneWay(java.lang.String, java.lang.String)[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="searchOneWay" duration-ms="48623" started-at="2019-09-13T09:38:33 IST" data-provider="fetchData" finished-at="2019-09-13T09:39:22 IST">
           <params>
             <param index="0">
               <value>
@@ -79,59 +103,7 @@
                 <![CDATA[Dubai]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[28092019]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[27102019]]>
-              </value>
-            </param>
           </params>
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Failed
-at com.pom.utils.ReporterExtent.reportStep(ReporterExtent.java:51)
-at com.pom.utils.ReporterExtent.reportStep(ReporterExtent.java:22)
-at com.pom.wrappers.GenericWrappers.click(GenericWrappers.java:997)
-at com.pom.pages.HomePage.selectArrival(HomePage.java:42)
-at com.pom.testcases.SearchFlight.searchOneWay(SearchFlight.java:40)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
             <line>
               <![CDATA[STEP1]]>
@@ -145,17 +117,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[STEP4]]>
             </line>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+            <line>
+              <![CDATA[STEP7]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchOneWay -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="afterMethod" is-config="true" duration-ms="882" started-at="2019-09-13T02:36:39 IST" finished-at="2019-09-13T02:36:40 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="afterMethod" is-config="true" duration-ms="1380" started-at="2019-09-13T09:39:22 IST" finished-at="2019-09-13T09:39:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="beforeMethod" is-config="true" duration-ms="17391" started-at="2019-09-13T02:36:40 IST" finished-at="2019-09-13T02:36:58 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="beforeMethod" is-config="true" duration-ms="15826" started-at="2019-09-13T09:39:24 IST" finished-at="2019-09-13T09:39:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="searchWithReturn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="searchWithReturn" duration-ms="47540" started-at="2019-09-13T02:36:58 IST" data-provider="fetchData" finished-at="2019-09-13T02:37:45 IST">
+        <test-method status="PASS" signature="searchWithReturn(java.lang.String, java.lang.String)[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="searchWithReturn" duration-ms="61037" started-at="2019-09-13T09:39:39 IST" data-provider="fetchData" finished-at="2019-09-13T09:40:40 IST">
           <params>
             <param index="0">
               <value>
@@ -167,83 +148,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
                 <![CDATA[Dubai]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[28092019]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[27102019]]>
-              </value>
-            </param>
           </params>
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Failed
-at com.pom.utils.ReporterExtent.reportStep(ReporterExtent.java:51)
-at com.pom.utils.ReporterExtent.reportStep(ReporterExtent.java:22)
-at com.pom.wrappers.GenericWrappers.click(GenericWrappers.java:997)
-at com.pom.pages.HomePage.selectArrival(HomePage.java:42)
-at com.pom.testcases.SearchFlight.searchWithReturn(SearchFlight.java:55)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
-            <line>
-              <![CDATA[STEP5]]>
-            </line>
-            <line>
-              <![CDATA[STEP6]]>
-            </line>
-            <line>
-              <![CDATA[STEP7]]>
-            </line>
             <line>
               <![CDATA[STEP8]]>
             </line>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+            <line>
+              <![CDATA[STEP10]]>
+            </line>
+            <line>
+              <![CDATA[STEP11]]>
+            </line>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+            <line>
+              <![CDATA[STEP13]]>
+            </line>
+            <line>
+              <![CDATA[STEP14]]>
+            </line>
+            <line>
+              <![CDATA[STEP15]]>
+            </line>
+            <line>
+              <![CDATA[STEP16]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchWithReturn -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="afterMethod" is-config="true" duration-ms="2082" started-at="2019-09-13T02:37:45 IST" finished-at="2019-09-13T02:37:47 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="afterMethod" is-config="true" duration-ms="1432" started-at="2019-09-13T09:40:40 IST" finished-at="2019-09-13T09:40:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-09-13T02:37:47 IST" finished-at="2019-09-13T02:37:47 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="afterTest" is-config="true" duration-ms="4" started-at="2019-09-13T09:40:42 IST" finished-at="2019-09-13T09:40:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="afterSuite" is-config="true" duration-ms="1749" started-at="2019-09-13T02:37:48 IST" finished-at="2019-09-13T02:37:50 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.pom.testcases.SearchFlight@140e5a13]" name="afterSuite" is-config="true" duration-ms="1745" started-at="2019-09-13T09:40:42 IST" finished-at="2019-09-13T09:40:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

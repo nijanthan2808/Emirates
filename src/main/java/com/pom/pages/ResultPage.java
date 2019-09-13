@@ -16,8 +16,8 @@ public class ResultPage extends ProjectWrappers {
 		Thread.sleep(5000);
 
 		
-		  if (!verifyTitle("Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience")) {
-		  reportStep("This is not the Emirates Home Page", "FAIL"); }
+		  if (!verifyTitle("Search results | Make a booking | Emirates")) {
+		  reportStep("This is not the Emirates Flight search result Page", "FAIL"); }
 		 
 	}
 
@@ -34,24 +34,25 @@ public class ResultPage extends ProjectWrappers {
 	}
 	
 	public ResultPage verifyOutBoundDate() throws InterruptedException {
-		getTextByXpath(prop.getProperty("Result.InBound.Xpath"));
+		getTextByXpath(prop.getProperty("Result.ObDate.Xpath"));
 		return this;
 	}
 	
 	public ResultPage verifyInBoundDate() throws InterruptedException {
-		getTextByXpath(prop.getProperty("Result.InBound.Xpath"));
+		//Thread.sleep(60000);
+		getTextByXpath(prop.getProperty("Result.IbDate.Xapth"));
 		return this;
 	}
 	
 	public ResultPage verifyOutBoundList() throws InterruptedException {
 		List<WebElement>  ObList= driver.findElementsByXPath(prop.getProperty("Result.ObList.Xapth")) ;
-		System.out.println("Total Out bound flights available : " + ObList ) ;
+		System.out.println("Total Out bound flights available : " + ObList.size() ) ;
 		return this;
 	}
 
 	public ResultPage verifyInBoundList() throws InterruptedException {
-		List<WebElement>  IbList= driver.findElementsByXPath(prop.getProperty("Result.IbList.Xapth")) ;
-		System.out.println("Total In bound flights available : " + IbList ) ;
+		List<WebElement> IbList = driver.findElementsByXPath(prop.getProperty("Reuslt.IbList.Xpath"));
+		System.out.println("Total In bound flights available : " + IbList.size()) ;
 		return this;
 	}
 

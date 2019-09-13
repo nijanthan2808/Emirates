@@ -1,0 +1,21 @@
+13/09/2019 02:12:41 devpinoyLogger The browser : 'chrome' has been launched successfully
+13/09/2019 02:12:55 devpinoyLogger The URL : 'https://www.emirates.com/ae/english/' has been opened
+13/09/2019 02:12:55 devpinoyLogger Implicitly wait has been set to 30 Secs
+13/09/2019 02:13:00 devpinoyLogger Title verified and its matching with the given text : Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience
+13/09/2019 02:13:04 devpinoyLogger The data : 'Chennai' has been entered by locator: 'xpath' successfully
+13/09/2019 02:13:10 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 02:13:12 devpinoyLogger The data : 'uba' has been entered by locator: 'xpath' successfully
+13/09/2019 02:13:26 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 02:13:27 devpinoyLogger Unable to take ScreenShot
+13/09/2019 02:13:27 devpinoyLogger Unable to click the element by locator: 'xpath', value :'//*[@class='checkbox one-way']/input'
+13/09/2019 02:13:27 devpinoyLogger Unable to take ScreenShot
+13/09/2019 02:13:30 devpinoyLogger All the active browsers has been closed
+13/09/2019 02:13:42 devpinoyLogger The browser : 'chrome' has been launched successfully
+13/09/2019 02:13:53 devpinoyLogger The URL : 'https://www.emirates.com/ae/english/' has been opened
+13/09/2019 02:13:53 devpinoyLogger Implicitly wait has been set to 30 Secs
+13/09/2019 02:13:55 devpinoyLogger Title verified and its matching with the given text : Emirates flights – Book a flight, browse our flight offers and explore the Emirates Experience
+13/09/2019 02:13:59 devpinoyLogger The data : 'Chennai' has been entered by locator: 'xpath' successfully
+13/09/2019 02:14:07 devpinoyLogger The element has been clicked by locator: 'xpath' successfully
+13/09/2019 02:14:09 devpinoyLogger The data : 'uba' has been entered by locator: 'xpath' successfully
+13/09/2019 02:14:41 devpinoyLogger Unable to click the element by locator: 'xpath', value :'(//*[@class='location__list']/li)[1]'
+13/09/2019 02:14:44 devpinoyLogger All the active browsers has been closed
