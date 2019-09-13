@@ -1,9 +1,9 @@
 package com.pom.wrappers;
 
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.HashMap;
 
-import org.jfree.xml.ParseException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -18,7 +18,6 @@ import com.pom.utils.GridConfig;
 import com.pom.utils.MobileConfigration;
 import com.pom.utils.ObjectRepository;
 import com.pom.utils.TestCaseDetailsProvider;
-
 public class ProjectWrappers extends GenericWrappers {
 
 	public String browserName;

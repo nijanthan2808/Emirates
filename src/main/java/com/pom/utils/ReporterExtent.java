@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.Properties;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -59,7 +60,7 @@ public abstract class ReporterExtent extends ReporterLogger{
 
 	public abstract long takeSnap();
 
-	public ExtentReports startResult() {
+	public ExtentReports startResult() throws ParseException{
 		extent = new ExtentReports("./reports/report.html", false);
 		extent.loadConfig(new File("./resources/extent-config.xml"));
 		return extent;
